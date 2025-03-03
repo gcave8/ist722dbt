@@ -13,3 +13,4 @@ select
     dayname,
     weekday
     from {{ source('conformed','DateDimension')}}
+-- gwcaveii
